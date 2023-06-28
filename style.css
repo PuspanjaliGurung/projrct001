@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Suranna&display=swap');
+
+body {
+  background-color: white !important;
+}
+
+.index-bg {
+  font-family: 'Montez', cursive;
+  letter-spacing: 0.8rem;
+  font-size: 50px;
+  color: rgb(205, 180, 41);
+}
+
+.sub-index-bg {
+  font-family: 'Suranna', serif;
+  word-spacing: 5px;
+}
+
+@media (max-width:500px) {
+  .sub-index-bg {
+    font-size: 50px;
+  }
+}
+
+@media (min-width:500px) {
+  .sub-index-bg {
+    font-size: 60px;
+
+  }
+}
+
+@media (min-width:768px) {
+  .sub-index-bg {
+    font-size: 65px;
+  }
+}
+
+@media (min-width:1200px) {
+  .sub-index-bg {
+    font-size: 80px;
+  }
+}
+
+.button {
+  padding-top: 95px;
+}
+
+@media (max-width:868px) {
+  .button {
+    padding-top: 40px;
+  }
+}
+
+.index-bnt {
+  align-items: center;
+  outline: auto;
+  color: rgb(205, 180, 41);
+  padding: 9px 45px 9px 45px;
+  justify-content: center;
+}
+
+.index-bnt:hover {
+  color: rgb(37, 165, 50);
+}
+
+.index4 {
+  width: 100%;
+  padding-left: 30px;
+}
+
+.whychoose {
+  margin-bottom: 10px !important;
+}
+
+.whychooseus {
+  background-color: white;
+
+  margin: 10px 10px;
+}
+
+.service-img {
+  height: 500px;
+  width: 463px;
+}
+
+.ourservicesize {
+  color: rgb(27, 116, 27);
+  font-family: 'Montez', cursive;
+  text-align: justify;
+  font-size: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  letter-spacing: 0.2rem;
+}
+
+@media only screen and (max-width: 568px) {
+  .ourservicesize {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .service1 {
+    font-size: 50px;
+    color: blueviolet;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .service1 {
+    font-size: 20px;
+    color: rgb(65, 165, 102);
+  }
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+.dot-effect {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.news-text {
+  font-family: 'Suranna', serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(27, 116, 27);
+  letter-spacing: 0.2rem;
+}
+
+.latestnews-img {
+  height: 200px;
+}
+.news-link {
+  text-decoration: none;
+  color: #000;
+}
+.news-link:hover{
+  color:green;
+}
+  /*footer starts */
+#tuned {
+ background-image: url(./img/dark-geometric-background-with-copy-space.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.quick-links{
+  padding-left: 30px;
+font-size: 1.15rem;
+font-family: 'Cormorant Garamond', serif;
+}
+.quick-links a{
+  text-decoration: none;
+  color:white
+}
+.quick-links:hover{
+  transform: translate(5px, 3px);
+  background-color: yellowgreen;
+  width: 110px;
+}
+.footertext{
+  color: white;
+}
+.footer-maintext{
+  font-size: 30px;
+  font-family: 'cormorant Garmond',serif;
+  font-style: italic;
+   color:white;
+}
+  /*footer ends */
+.text-decoration {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+@media (max-width: 576px) {
+  .menusize>p {
+    font-size: 20px;
+  }
+}
+
+.quote1 {
+
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+.quote1background {
+  color: white;
+  background-image: url('./img/index.jpg');
+  background-repeat: no-repeat;
+  height: 400px;
+  background-size: cover;
+  background-color: grey;
+  background-blend-mode: multiply;
+
+}
+
+.gallaryfont {
+  font-family: 'cormorant Garmond', serif;
+  font-size: 50px;
+
+}
+
+.gallerysmallfont {
+  font-size: 50px;
+  color: rgb(99, 93, 93);
+  font-family: 'Great Vibes', cursive;
+  margin-bottom: 1px;
+  letter-spacing: 0.2rem;
+}
+
+.discoverbutton {
+  background-color: rgb(51, 182, 51);
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'cormorant Garmond', serif;
+  margin-top: 10px;
+  font-size: 20px;
+  border-radius: 4px;
+
+}
+
+.discoverbutton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transform: translateY(7px);
+}
+
+.imageabout {
+  background-image: url(./img/bkg-img19.jpg);
+  width: 100%;
+  height: 600px;
+  margin-bottom: 80px;
+}
+
+.imagetext {
+  padding-top: 250px;
+  color: rgb(179, 160, 61);
+  font-size: 40px;
+  font-family: 'Montez', cursive;
+}
+
+.sub-imagetext {
+  color: #d8d0d0;
+  font-size: 30px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+@media (max-width: 575px) {
+  .imagetext {
+    font-size: 40px;
+  }
+}
+
+.menubackground {
+  background-image: url('./img/About-3.jpg');
+  background-color: grey;
+  background-blend-mode: multiply;
+  width: 100%;
+  height: 550px;
+
+}
+
+.menuslogan {
+  padding-top: 150px;
+}
+
+.subslogan {
+  font-size: 40px;
+  font-family: 'Montez', cursive;
+  margin-bottom: 10px;
+
+}
+
+.sloganmenu {
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 0.1rem;
+  font-size: 50px;
+}
+
+@media(max-width:575px) {
+
+  .subslogan,
+  .sloganmenu {
+    font-size: 30px;
+
+  }
+}
+
+.menu {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+#menutext {
+  font-family: 'Montez', cursive;
+  font-size: 40px;
+  color: rgb(47, 183, 34);
+  font-weight: bold;
+}
+
+#menusubtext {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 30px;
+}
+
+.menuborder {
+  box-sizing: border-box;
+  border-style: outset;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+@media (max-width: 575px) {
+  .menuborder {
+    border-style: none;
+  }
+}
+
+.dotted-line {
+  flex-grow: 2;
+  border-top: 2px dotted #000;
+  margin: 13px 10px;
+}
+
+.menu-item-description {
+  color: #5e5555;
+}
+
+.menu-style {
+  list-style-type: none;
+}
+
+.menu-title {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.menu-item-title {
+  font-family: 'Montserrat-UltraLight', Arial, sans-serif;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.winemenu {
+  background-image: url('./img/wine.jpg');
+  width: 100%;
+  height: 700px;
+  filter: brightness(90%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+}
+
+.wine-title {
+  font-family: 'Montez', cursive;
+  font-size: 45px;
+  letter-spacing: 0.1rem;
+  color: rgb(179, 160, 61);
+}
+
+.sub-wine-title {
+  font-size: 35px;
+  margin-top: 25px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.winemenu1 {
+  width: 200px;
+  border-radius: 40%;
+
+}
+
+.wine-item-title {
+  padding-left: 30px;
+  margin-top: 30px;
+  font-family: 'Montserrat-UltraLight', Arial, sans-serif;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.wine-item-title2 {
+  padding-left: 30px;
+  color: #5e5555;
+}
+
+.nepalimenu {
+  margin-top: 30px;
+  width: 100%;
+  background-image: url('./img/nepalimenu.jpg');
+  height: 1150px;
+  filter: brightness(80%);
+  background-attachment: fixed;
+}
+
+@media (max-width: 768px) {
+  .nepalimenu {
+    width: 100%;
+    height: 2250px;
+    margin-right: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nepalimenu {
+    width: 100%;
+    height: 1200px;
+    margin-right: 30px;
+  }
+}
+
+.nepali-menu-title {
+  font-family: 'Montez', cursive;
+  font-size: 55px;
+  letter-spacing: 0.1rem;
+  color: white;
+}
+
+.nepali-menu-description {
+  color: rgb(243, 251, 96);
+  font-size: 17px;
+}
+
+.dotted-line-nep {
+  flex-grow: 2;
+  border-top: 2px dotted #dfdfdb;
+  margin: 13px 10px;
+}
+
+.cake-title {
+  font-family: 'Suranna', serif;
+  font-size: 36px;
+  line-height: 45px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  color: rgb(178, 150, 13);
+}
+
+.cake-sub-title {
+  font-family: 'Montserrat-UltraLight', Arial, sans-serif;
+  font-size: 16px;
+  color: #605959;
+  line-height: 25px;
+}
+
+@media (min-width:768px) {
+  .cake-pads {
+    margin-left: 70px;
+  }
+}
+
+.testimonial {
+  background-image: url(./img/footer-partnerships.jpg);
+  width: 100%;
+  height: 500px;
+  background-color: grey;
+  background-blend-mode: multiply;
+  margin-top: 20px;
+}
+
+.testimonial2 {
+  margin: auto;
+  background-color: rgb(224, 205, 180);
+  width: 80%;
+}
+
+.testimonial1 {
+  font-size: 40px;
+  font-family: 'Suranna', serif;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.testimonial0 {
+  font-family: 'Montez', cursive;
+  font-size: 50px;
+  color: green;
+  letter-spacing: 0.2rem;
+
+}
+/* Subscribe */
+.Subscribe{
+  background-image: url(./img/breakfast-1804457.jpg);
+  border-style:groove;
+  border-radius: 30px;
+}
+#email{
+  padding: 5px 50px;
+  border-radius: 10px;
+  margin-left:10px;
+  margin-right:10px;
+
+
+}
+.vl {
+  border-left: 3px solid rgb(168, 168, 25);
+  height: 130px;
+  position: absolute;
+  left: 50%;
+}
+@media (max-width:768px){
+.vl{
+display:none;
+}
+}
+
+.Subscribe-button{
+  border-radius: 30px;
+  padding: 10px 40px;
+  font-size: 18px;
+  background-color: rgb(71, 181, 71);
+  color: #000;
+  font-family:  'Cormorant Garamond', serif;
+}
+.Subscribe-button:hover{
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+/* blogstart--- */
+.land-blog {
+  background-image: url('./img/wine.jpg');
+  width: 100%;
+  height: 500px;
+  filter: brightness(90%);
+  display: flex;
+  align-items: center;
+
+}
+
+.blog-title {
+  font-family: 'Suranna', serif;
+  font-size: 36px;
+  line-height: 45px;
+  color: rgb(178, 150, 13);
+}
+
+.dropdownbtn {
+  font-family: 'Suranna', serif;
+  font-size: 20px;
+  padding: 0 70px;
+}
+
+.recentblog {
+  max-width: 18rem;
+  font-family: 'Montserrat-UltraLight', Arial, sans-serif;
+}
+.blogcard-style{
+  border:none; 
+  color:black;
+  font-family:  'Cormorant Garamond', serif;
+}
+.blogcard-style a{
+  color: rgb(242, 245, 235);
+  font-family:  'Cormorant Garamond', serif;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* newsletter */
+.stay-connected {
+  font-family: 'Montez', cursive;
+  font-size: 40px;
+  color: rgb(178, 150, 13);
+}
+
+.stay-connected-sub {
+  font-family: 'Suranna', serif;
+  font-size: 40px;
+
+}
+
+/* newsletterend */
